@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <fullName>Status__c</fullName>
+    <type>Picklist</type>
+    <inlineHelpText>Select the current status of the partner motorcycle repair shop</inlineHelpText>
+    <required>true</required>
+    <description>Current status of the partner motorcycle repair shop in the MotoParceiro platform.</description>
+    <label>Status</label>
+    <valueSet>
+        <valueSetDefinition>
+            <value>
+                <fullName>Pendente</fullName>
+                <label>Pendente</label>
+                <default>true</default>
+            </value>
+            <value>
+                <fullName>Ativa</fullName>
+                <label>Ativa</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Inativa</fullName>
+                <label>Inativa</label>
+                <default>false</default>
+            </value>
+            <sorted>true</sorted>
+        </valueSetDefinition>
+    </valueSet>
+    <securityClassification>Confidential</securityClassification>
+</CustomField>

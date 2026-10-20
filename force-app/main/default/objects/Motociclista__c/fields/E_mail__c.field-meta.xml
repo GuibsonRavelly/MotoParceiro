@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <fullName>E_mail__c</fullName>
+    <type>Email</type>
+    <inlineHelpText>Enter a valid email address for the motorcycle courier.</inlineHelpText>
+    <required>false</required>
+    <description>Stores the motorcycle courier's email address.</description>
+    <label>E-mail</label>
+    <securityClassification>Confidential</securityClassification>
+</CustomField>

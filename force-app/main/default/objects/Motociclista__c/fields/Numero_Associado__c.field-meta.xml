@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <fullName>Numero_Associado__c</fullName>
+    <type>Text</type>
+    <length>20</length>
+    <inlineHelpText>Enter the membership number assigned to the motorcycle courier.</inlineHelpText>
+    <required>false</required>
+    <unique>true</unique>
+    <externalId>false</externalId>
+    <description>Stores the unique membership number assigned to the motorcycle courier.</description>
+    <label>Número de Associado</label>
+    <securityClassification>Confidential</securityClassification>
+</CustomField>

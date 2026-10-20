@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <fullName>Telefone__c</fullName>
+    <type>Phone</type>
+    <inlineHelpText>Enter the motorcycle courier's phone number, including the area code.</inlineHelpText>
+    <required>false</required>
+    <description>Stores the motorcycle courier's contact phone number.</description>
+    <label>Telefone</label>
+    <securityClassification>Confidential</securityClassification>
+</CustomField>

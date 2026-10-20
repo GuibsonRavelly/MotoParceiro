@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <fullName>Status__c</fullName>
+    <type>Picklist</type>
+    <inlineHelpText>Select the current registration status of the motorcycle courier.</inlineHelpText>
+    <required>true</required>
+    <description>Indicates the registration status of the motorcycle courier.</description>
+    <label>Status</label>
+    <valueSet>
+        <valueSetDefinition>
+            <value>
+                <fullName>Pendente</fullName>
+                <label>Pendente</label>
+                <default>true</default>
+            </value>
+            <value>
+                <fullName>Ativo</fullName>
+                <label>Ativo</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Inativo</fullName>
+                <label>Inativo</label>
+                <default>false</default>
+            </value>
+            <sorted>true</sorted>
+        </valueSetDefinition>
+    </valueSet>
+    <securityClassification>Confidential</securityClassification>
+</CustomField>

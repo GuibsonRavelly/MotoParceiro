@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject>
+    <pluralLabel>Oficina Parceiras</pluralLabel>
+    <fullName>OficinaParceira__c</fullName>
+    <description>Represents partner motorcycle repair shops registered in MotoParceiro that offer services, discounts, and benefits to registered motorcycle couriers.</description>
+    <nameField>
+        <label>Oficina Parceira Name</label>
+        <type>Text</type>
+    </nameField>
+    <enableBulkApi>true</enableBulkApi>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <enableHistory>true</enableHistory>
+    <enableActivities>true</enableActivities>
+    <enableSearch>true</enableSearch>
+    <enableFeeds>true</enableFeeds>
+    <enableReports>true</enableReports>
+    <sharingModel>Private</sharingModel>
+    <label>Oficina Parceira</label>
+    <deploymentStatus>Deployed</deploymentStatus>
+</CustomObject>

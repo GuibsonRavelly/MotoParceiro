@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <fullName>Cidade__c</fullName>
+    <type>Text</type>
+    <length>50</length>
+    <inlineHelpText>Enter the main City where the partner motorcycle repair shop is located.</inlineHelpText>
+    <required>false</required>
+    <unique>false</unique>
+    <externalId>false</externalId>
+    <description>City where the partner motorcycle repair shop is located.</description>
+    <label>Cidade</label>
+    <securityClassification>Confidential</securityClassification>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <fullName>E_mail__c</fullName>
+    <type>Email</type>
+    <inlineHelpText>Enter the main email address for the partner motorcycle repair shop</inlineHelpText>
+    <required>false</required>
+    <description>Email address of the partner motorcycle repair shop.</description>
+    <label>E-mail</label>
+    <securityClassification>Confidential</securityClassification>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject>
+    <pluralLabel>Motociclistas</pluralLabel>
+    <fullName>Motociclista__c</fullName>
+    <description>Stores motorcycle courier registration details for the MotoParceiro platform, including contact information, city, membership number, and registration status.</description>
+    <nameField>
+        <label>Motociclista Name</label>
+        <type>Text</type>
+    </nameField>
+    <enableBulkApi>false</enableBulkApi>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <enableHistory>true</enableHistory>
+    <enableActivities>true</enableActivities>
+    <enableSearch>true</enableSearch>
+    <enableFeeds>false</enableFeeds>
+    <enableReports>true</enableReports>
+    <sharingModel>Private</sharingModel>
+    <label>Motociclista</label>
+    <deploymentStatus>Deployed</deploymentStatus>
+</CustomObject>
