@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Beneficio_Ativo_Com_Oficina</fullName>
+    <active>true</active>
+    <description>Todo benefício ativo deve estar associado a uma oficina parceira.</description>
+    <errorConditionFormula>
+        AND(
+            ISPICKVAL(Status__c, "Ativo"),
+            ISBLANK(Oficina_Parceira__c)
+        )
+    </errorConditionFormula>
+    <errorMessage>Associe uma oficina parceira antes de ativar o benefício.</errorMessage>
+</ValidationRule>

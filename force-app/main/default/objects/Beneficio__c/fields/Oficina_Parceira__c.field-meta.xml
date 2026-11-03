@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Oficina_Parceira__c</fullName>
+    <label>Oficina Parceira</label>
+    <referenceTo>OficinaParceira__c</referenceTo>
+    <relationshipLabel>Benefícios</relationshipLabel>
+    <relationshipName>Beneficios</relationshipName>
+    <type>Lookup</type>
+    <deleteConstraint>SetNull</deleteConstraint>
+</CustomField>
